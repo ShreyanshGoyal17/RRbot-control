@@ -1,8 +1,10 @@
 # RRbot-control
 
+In this project, we design a robust control algorithm to track
+the same trajectory in the presence of dynamic model uncertainties. Consider the 2-DoF Revolute-Revolute robot arm (RRBot) shown in Figure 1. Each joint is
+equipped with an actuator, applying control torques τ1 and τ2 to joint 1 and joint 2, respectively.
 
-
-
+![image](https://user-images.githubusercontent.com/94932358/168966011-de2cbf45-0044-4486-b4c0-b0964a7d48db.png)
 
 
 
