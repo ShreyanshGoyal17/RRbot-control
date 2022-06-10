@@ -38,7 +38,7 @@ Asys=[0 0 1 0;0 0 0 1;-K];
 Q= diag([10 10 10 10]);
 P=lyap(Asys',Q);
 
-%running the ode45 on the ode_system defined below
+%running the ode45 on the function ode_system defined below
 T=10;
 y0=[deg2rad(200),deg2rad(125),0,0];
 [t,y]=ode45(@ode_system,[0,T],y0);
